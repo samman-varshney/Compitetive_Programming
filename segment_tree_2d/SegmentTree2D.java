@@ -111,15 +111,6 @@ public class SegmentTree2D {
             SegmentTree2D st = new SegmentTree2D(n, m);
             st.buildx(arr, 0, 0, n - 1);
 
-
-            // int q = Integer.parseInt(br.readLine());
-            // while (q-- > 0) {
-            //     String[] queryInput = br.readLine().split(" ");
-            //     int l = Integer.parseInt(queryInput[0]);
-            //     int r = Integer.parseInt(queryInput[1]);
-            //     bw.write(st.query(0, 0, n - 1, l, r) + "\n");
-            // }
-
             int queries = Integer.parseInt(br.readLine());
             while(queries-- > 0){
                 String[] queryInput = br.readLine().split(" ");
